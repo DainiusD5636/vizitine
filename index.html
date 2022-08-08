@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vizitine</title>
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+      }
+    </style>
+  </head>
+  <body onload="uzkrauti()">
+    <div id="inputs">
+      <div>
+        <label>Vardas</label>
+        <input type="text" placeholder="Vardas" id="name" />
+      </div>
+
+      <div>
+        <label>Pavardė</label>
+        <input type="text" placeholder="Pavarde" id="lastname" />
+      </div>
+
+      <div>
+        <label>El. Paštas</label>
+        <input type="email" placeholder="El. Pastas" id="email" />
+      </div>
+      <div>
+        <label>Numeris</label>
+        <input type="number" placeholder="Numeris" id="number" />
+      </div>
+
+      <div>
+        <label>Darbas</label>
+        <input type="text" placeholder="Darbas" id="job" />
+      </div>
+    </div>
+
+    <div>
+      <button id="btn">Submit</button>
+    </div>
+
+    <div id="rez">REZ</div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
